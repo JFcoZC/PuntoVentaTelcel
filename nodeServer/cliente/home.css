@@ -1,0 +1,194 @@
+/*
+*Display divs inside containerSearchBar in 1 line
+*/
+div.buscador
+{
+	display: inline;
+	width: 50%;
+	padding: 1%;
+    
+}
+/*
+*Display divs inside containerSearchBar in 1 line
+*/
+p.searchBar
+{
+    display: inline;
+}
+/*
+*Display divs inside containerSearchBar in 1 line
+*/
+div.botonesSearchBar
+{
+	display: inline;
+	width: 50%;
+	padding: 1%;
+	margin: 0 15%;
+}
+/* /////// Inicio Tabla Formato //////// */
+/*Lineas horizontales em tabla*/
+th, td 
+{
+    border-bottom: 1px solid #ddd;
+}
+/*Cuando se pase el cursor sobre una fila(row) cambiar el color del background*/
+tr:hover
+{
+	background-color: #d6d6c2; /*Gris*/
+}
+/*Dejar espacio entre headers de la tabla*/
+th
+{
+	padding:0 10px 0 10px;
+}
+/*Centrar tabla: Como la propieadad text-align solo se aplica 
+elementos in-line y la tabla es de tipo block; entonces hay que
+darle un marge de auto a la izquierda y derecha*/
+table
+{
+	margin: 0 auto 0 auto;
+}
+/* /////// Fin Tabla Formato //////// */
+
+/* /////// Inicio Formato Etiquetas Encargados //////// */
+.tagit
+{
+	background: orange;
+	opacity: 0.6;
+	list-style-type: none;
+	display: inline-block;
+	border: 2px solid white;
+
+}
+.tagit-label, .tagit-close
+{
+	color: white;
+	font-weight: bold;
+	padding: 2px;
+
+}
+.tagit-content
+{
+	background: none;
+}
+/* /////// Fin Formato Etiquetas Encargados //////// */
+
+/* //////////////FORMATO INPUT TEXT FIELD DE ENCARGADOS ////////////// */
+#inpEncargados
+{
+	display: inline-block;
+}
+/* //////////////FORMATO DE LA CLASE SPECIALLINE ////////////// */
+.specialLine
+{
+	display: inline-block;
+}
+/* //////////////FORMATO BOTON '+' DE ENCARGADOS ////////////// */
+#btnAddEncargados
+{
+	display: inline-block;
+	background: green;
+	/*Poner en negritas*/
+	font-weight: bold;
+	color: white;
+	width: 25px;
+	margin: 0;
+	margin-left: 5px;
+
+}
+/* //////////////// HEADER PRINCIPAL ////////////////// */
+#containerHeader
+{
+	text-align: center;
+	display: inline;
+}
+#titleHeader
+{
+	text-align: center;
+	display: inline;
+}
+#escudo
+{
+	width: 6%;
+	height: auto;
+	vertical-align: middle;
+}
+hr
+{	
+	border: 10px solid orange;
+	margin-bottom: 15px; 
+}
+#subTitle
+{
+	display: inline;
+}
+h1
+{
+	color: royalblue;
+}
+/*///////////// CONTENEDOR SEARCH BAR /////////////////*/
+#containerSearchBar
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+/*///////////// CONTENEDOR TABLA /////////////////*/
+#containerTable
+{
+	margin-top: 20px;
+}
+/*///////////// BOTONES /////////////////*/
+#btnAjustes
+{
+	margin-left: 12%;
+}
+#btnAgregar
+{
+	background-color: green;
+	color: white;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+#btnGenerarPDF
+{
+	background-color: cornflowerblue;
+	color: white;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+/*//////////// FORMULARIO /////////*/
+div.lineFormulario
+{
+	margin: 4px 0 1% 5%;
+}
+#btnRegresar, #btnAddfile, #btnSavechanges, #btnSaveConfig
+{
+	background-color: green;
+	color: white;
+}
+#btnAddfile, #btnSavechanges, #btnSaveConfig
+{
+	margin-left: 10%;
+}
+#btnDelete, #btnDeleteDB
+{
+	background-color: red;
+	color: white;
+	margin-left: 2%;
+}
+h2
+{
+	margin-left: 10%;
+}
+label
+{
+	margin-right: 5px;
+}
+#lblDocName, #lblTermino
+{
+	margin-left: 2%;
+}
+#btnDeleteDB
+{
+	float: right;
+}

@@ -1,0 +1,19 @@
+#Compose that defines 3 services: Nodejs(Server y web Server), Nodejs(mailnotifiactions) and DB(Postgresql) services
+version: '3'
+services:
+  #----- SERVICE 1 ------
+  db:
+    #To build this service use image from dockerfile in directory dbServer
+    build: ./dbServer
+    #PortExposedContainer:PortHostMachine
+    ports:
+      - '5432:5432'
+  #---- SERVICE 2 ------      
+  node:
+    #To build this service use image from dockerfile in directory nodeServer
+    build: ./nodeServer
+    #PortExposedContainer:PortHostMachine
+    #80(navegador):80(maquina virtual)
+    ports:
+      - '80:80'
+#END OF ALL THE SERVICES
